@@ -1,0 +1,14 @@
+
+.center {
+    border-radius: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    
+  }
+
+.iconimg {
+  width: 10%;
+  margin-left: auto;
+}
