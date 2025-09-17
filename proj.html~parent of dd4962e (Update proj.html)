@@ -1,0 +1,142 @@
+<!DOCTYPE HTML>
+<!--
+	Hyperspace by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Projects</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<link rel="stylesheet" href="proj.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+
+		<!-- Header -->
+			<header id="header">
+				<a href="index.html" class="title">Andrew Lin</a>
+				<nav>
+					<ul>
+						<li><a href="index.html">Home</a></li>
+						<li><a href="generic.html" >About Me</a></li>
+						<li><a href="proj.html" class="active">Projects</a></li>
+					</ul>
+				</nav>
+			</header>
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Main -->
+					<section id="main" class="wrapper">
+						<div class="inner">
+							
+							<h1 class="major">Projects</h1>
+							<span class="image fit">
+								
+							</span>
+							
+							<section class="wrapper style1 spotlights">
+                                <section>
+                                    <a href="" class="image"><img src="images/proj3.gif" alt="" data-position="center center" /></a>
+                                    <div class="content">
+                                        <div class="inner">
+                                            <h2> Face Tracker </h2>
+                                            <p> 
+                                                The Face Tracker project was made to follow the user's face on camera.
+                                                Using OpenCV framework to detect faces, port programming to transmit data,
+                                                and an Arduino connected to 2 servo motors, I managed to have a working device that
+                                                communicates with my computer to transmit data from OpenCV to the Arduino.
+                                            </p>
+                                            <ul class="actions">
+                                                <li><a href="https://github.com/AndrewLin31/faceTrackerProj" class="button">GitHub Repository</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </section>
+                            </section>
+                            <section class="wrapper style2 spotlights">
+                                <section>
+                                    <a href="" class="image"><img src="images/bpm1.jpg" alt="" data-position="center center" /></a>
+                                    <div class="content">
+                                        <div class="inner">
+                                            <h2> Blood Pressure Monitor </h2>
+                                            <p> 
+                                                The Blood Pressure Monitor is a prototype for ENDEAVR's future line of monitors to help directly transmit
+                                                user data to remote doctors. The device was programmed in C++ to inflate/deflate a pressure bag as well as to measure the user's blood pressure. 
+                                                Hardware consists of 3 main components: Pressure Sensor, Air Pump, and Air Valve. The MCU used was an Arduino Mega 2560 (Any MCU with 2 Analogs and 1 I2C will work).
+                                            </p>
+                                            <ul class="actions">
+                                                <li><a href="https://drive.google.com/file/d/1bS0QT9EKWTWMpOxBg_n1NtGYWtDL5hvJ/view?usp=sharing" class="button">Video Explaination</a></li>
+                                                <li><a href="https://github.com/AndrewLin31/arduino_blood_pressure" class="button">GitHub Repository</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </section>
+                            </section>
+                            <section class="wrapper style3 spotlights">
+                                <section>
+                                    <a href="" class="image"><img src="images/proj2.gif" alt="" data-position="center center" /></a>
+                                    <div class="content">
+                                        <div class="inner">
+                                            <h2> Rise of the Elements </h2>
+                                            <p>
+                                                Rise of the Elements was one of my first Hackathon products. I worked in a team of 3
+                                                 to develop a multiplayer rpg game with mob drops and spell varieties.
+                                                This game was programmed in C# in Unity while also using PUN(Photon Unity Networking) library as our multiplayer framework.
+                                            </p>
+                                            <ul class="actions">
+                                                <li><a href="https://github.com/AndrewLin31/rise-of-the-elements" class="button">GitHub Repository</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </section>
+                            </section>
+                            <section class="wrapper style4 spotlights">
+                                <section>
+                                    <a href="" class="image"><img src="images/image7.jpg" alt="" data-position="center center" /></a>
+                                        
+                                    <div class="content">
+                                        <div class="inner">
+                                            <h2> EMG Signal Processing </h2>
+                                            <p>
+                                                Worked with EMG signals coming from a user to amplify and digitize EMG readings to interpret them into controls to play Pac Man.
+                                                 The device takes in 3 readings from the user, EMG+, EMG-, and a ground reference unrelated to the muscle. The signals get sent from
+                                                  the Arduino into the computer where my LabVIEW program processes the signal and uses the information to interpret user's movement.
+                                            </p>
+                                            <ul class="actions">
+                                                <li><a href="https://youtu.be/tEgYcARKn_k" class="button">Video Demo</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </section>
+                            </section>
+							
+						</div>
+					</section>
+
+			</div>
+
+		<!-- Footer -->
+			<footer id="footer" class="wrapper alt">
+				<div class="inner">
+					<ul class="menu">
+						<li>&copy; Untitled. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+					</ul>
+				</div>
+			</footer>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
